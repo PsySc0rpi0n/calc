@@ -17,7 +17,7 @@ ifeq ($(OS),Windows_NT)
 endif
 TARGET := $(BIN_PATH)/$(TARGET_NAME)
 TARGET_DEBUG := $(DBG_PATH)/$(TARGET_NAME)
-MAIN_SRC := main.c# FILL: src file contains `main()`
+MAIN_SRC := src/main.c# FILL: src file contains `main()`
 
 # src files & obj files
 SRC := $(foreach x, $(SRC_PATH), $(wildcard $(addprefix $(x)/*,.c*)))

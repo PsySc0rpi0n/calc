@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "src/sum.h"
-#include "src/sub.h"
-#include "src/mult.h"
-#include "src/div.h"
+#include "sum.h"
+#include "sub.h"
+#include "mult.h"
+#include "div.h"
 
 int main(void){
     float num1 = 0.0, num2 = 0.0;
